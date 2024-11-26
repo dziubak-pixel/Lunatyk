@@ -1,0 +1,46 @@
+html, body {
+  margin: 0;
+  padding:0;
+  font-size: 24px;
+  display: flex;
+  background-color: white;
+
+}
+
+div#leftHalf {
+  margin-right: 10px;
+}
+
+
+div {
+ width: 50vw;
+ height: 100vh;
+ display: flex;
+ align-items: center;
+
+}
+
+
+
+
+video {
+  isolation: isolate;
+  width: 100vh;
+}
+
+#video-1, #video-0, #video-2 {
+  mix-blend-mode: difference;
+}
+
+p {
+  display: block;
+  font-family: "adobe-jenson-pro", serif;
+  font-weight: 400;
+  font-style: normal;
+  max-width: 75%;
+  margin-left: 100px;
+}
+
+canvas {
+  display: block;
+}
